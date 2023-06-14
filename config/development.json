@@ -1,0 +1,83 @@
+{
+  "http": {
+    "frontendUrl": "http://localhost:3000",
+    "backendUrl": "http://localhost:3001",
+    "port": "3001",
+    "password": "",
+    "closedBeta": false
+  },
+
+  "database": {
+    "host": "localhost",
+    "port": 28015,
+    "name": "insolve"
+  },
+
+  "auth": {
+    "returnUrlBase": "http://localhost:3000",
+    "returnUrlSuccess": "http://localhost:3000/auth",
+    "accountsPerIp": 1,
+    "sessionSecret": "verybigsecret",
+    "sessionName": "sessionname"
+  },
+
+  "steam": {
+    "apiKey": "",
+    "defaultAdmin": "76561198212555451",
+    "defaultAppId": 252490,
+    "appIdsToLoadPrices": [252490],
+    "priceUpdateInterval": 24,
+    "bots": [
+      {
+        "steamid": "",
+        "accountName": "",
+        "password": "",
+        "sharedSecret": "",
+        "identitySecret": "",
+        "tradelink": ""
+      },
+      {
+        "steamid": "",
+        "accountName": "",
+        "password": "",
+        "sharedSecret": "",
+        "identitySecret": "",
+        "tradelink": ""
+      }
+    ]
+  },
+
+  "steamTrades": {
+    "maxItemsPerTrade": 20,
+    "minDepositValue": 0.01,
+    "maxDepositValue": 0,
+    "minWithdrawValue": 0,
+    "maxWithdrawValue": 100,
+    "allowedGames": ["jackpot", "coinflip", "mines"]
+  },
+
+  "steamApis": {
+    "apiKey": ""
+  },
+
+  "backpackTF": {
+    "apiKey": ""
+  },
+
+  "randomorg": {
+    "apiKey": ""
+  },
+
+  "chat": {
+    "limit": 20,
+    "messageMaxLength": 130,
+    "spamTimeout": 5
+  },
+
+  "games": {
+    "roulette": {
+      "minBet": 0.01,
+      "maxBet": 1000
+    }
+  }
+}
